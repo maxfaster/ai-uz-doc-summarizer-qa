@@ -1,7 +1,7 @@
 
 ---
 
-## ?? **1. GitHub repository nomi:**
+**1. GitHub repository nomi:**
 
 ```
 ai-uz-doc-summarizer-qa
@@ -9,7 +9,7 @@ ai-uz-doc-summarizer-qa
 
 ---
 
-## ?? **2. Folder/fayl tuzilmasi:**
+**2. Folder/fayl tuzilmasi:**
 
 ```
 ai-uz-doc-summarizer-qa/
@@ -21,39 +21,39 @@ ai-uz-doc-summarizer-qa/
 
 ---
 
-## ?? **3. README.md ó tayyor nusxa**
+**3. README.md ‚Äî tayyor nusxa**
 
 ````markdown
-# ?? AI Document Summarizer + Q&A (Oëzbekcha + OCR + Deep Translator)
+AI Document Summarizer + Q&A (O‚Äòzbekcha + OCR + Deep Translator)
 
 Bu Gradio asosidagi web-ilova PDF, DOCX yoki TXT hujjatlarni yuklab:
-- Matnni avtomatik ajratadi (hatto rasmli PDF boëlsa ham OCR orqali),
+- Matnni avtomatik ajratadi (hatto rasmli PDF bo‚Äòlsa ham OCR orqali),
 - Qisqacha mazmun chiqaradi (summarization),
 - Matn asosida savollarga javob beradi (Q&A),
-- Hammasini oëzbek tilida bajaradi ó tarjima funksiyasi orqali!
+- Hammasini o‚Äòzbek tilida bajaradi ‚Äî tarjima funksiyasi orqali!
 
 ---
 
-## ?? Demo (Hugging Face Spaces)
-?? [Ishchi demo linkini bu yerga joylashtiring]
+ Demo (Hugging Face Spaces)
+ [Ishchi demo linkini bu yerga joylashtiring]
 
 ---
 
-## ?? Texnologiyalar
+Texnologiyalar
 
 | Texnologiya        | Maqsadi                          |
 |--------------------|----------------------------------|
 | Gradio             | Foydalanuvchi interfeysi         |
 | EasyOCR            | Rasmli matndan matn ajratish     |
 | pdfplumber         | PDF matn ajratish (text-based)   |
-| python-docx        | DOCX fayl matni oëqish           |
-| deep-translator    | Oëzbek ? Ingliz tarjima          |
+| python-docx        | DOCX fayl matni o‚Äòqish           |
+| deep-translator    | O‚Äòzbek ? Ingliz tarjima          |
 | HuggingFace Transformers | Summarizer + Q&A modellar |
 | Torch              | LLM modellarni ishga tushirish   |
 
 ---
 
-## ?? Foydalanish
+ Foydalanish
 
 1. Reponi klonlang:
 
@@ -69,7 +69,7 @@ python -m venv venv
 source venv/bin/activate  # yoki Windows: venv\\Scripts\\activate
 ```
 
-3. Kutubxonalarni oërnating:
+3. Kutubxonalarni o‚Äòrnating:
 
 ```bash
 pip install -r requirements.txt
@@ -83,40 +83,40 @@ python app.py
 
 ---
 
-## ??? Ilova koërinishi
+ Ilova ko‚Äòrinishi
 
 * Fayl yuklash
-* ìQisqacha mazmun chiqarishî
-* ìSavol-javobî boëlimi
+* ‚ÄúQisqacha mazmun chiqarish‚Äù
+* ‚ÄúSavol-javob‚Äù bo‚Äòlimi
 
 ---
 
-## ? Toëliq imkoniyatlar
+To‚Äòliq imkoniyatlar
 
-* ? PDF / DOCX / TXT qoëllab-quvvatlash
-* ? OCR (PDF rasmli boëlsa ham)
-* ? Oëzbek tilida savol-javob va mazmun chiqarish
+* ? PDF / DOCX / TXT qo‚Äòllab-quvvatlash
+* ? OCR (PDF rasmli bo‚Äòlsa ham)
+* ? O‚Äòzbek tilida savol-javob va mazmun chiqarish
 * ? Deep Translator orqali tarjima
 * ? Hugging Face summarizer va Q\&A modellar
 
 ---
 
-## ?? Litsenziya
+Litsenziya
 
 MIT
 
 ---
 
-## ?? Muallif
+Muallif
 
-* ????? Loyihani yaratdi: \[dradiomaxfaster (GitHub profilingiz)]
+ Loyihani yaratdi: \[dradiomaxfaster (GitHub profilingiz)]
 * Yordamchi: ChatGPT (OpenAI)
 
 ````
 
 ---
 
-## ?? 4. `.gitignore` (ixtiyoriy, lekin tavsiya qilinadi)
+4. `.gitignore` (ixtiyoriy, lekin tavsiya qilinadi)
 
 ```gitignore
 __pycache__/
@@ -133,13 +133,13 @@ __pycache__/
 
 ---
 
-## ? Tayyor boëldi. Endi nima qilasiz:
+Tayyor bo‚Äòldi. Endi nima qilasiz:
 
-1. GitHubída yangi repo yarating: `ai-uz-doc-summarizer-qa`
+1. GitHub‚Äôda yangi repo yarating: `ai-uz-doc-summarizer-qa`
 2. Quyidagilarni joylashtiring:
 
    * `app.py`
    * `requirements.txt`
    * `README.md`
    * `.gitignore`
-3. Keyin repo bilan `Hugging Face Space`ni ulang ó avtomatik build qiladi.
+3. Keyin repo bilan `Hugging Face Space`ni ulang ‚Äî avtomatik build qiladi.
