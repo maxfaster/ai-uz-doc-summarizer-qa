@@ -1,0 +1,12 @@
+
+gradio
+pdfplumber
+easyocr
+pillow
+python-docx
+transformers
+torch
+sentence-transformers
+numpy
+sentencepiece
+deep-translator
